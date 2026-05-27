@@ -19,7 +19,7 @@ data:
         }
 
         location /api/ {
-          proxy_pass http://backend-service:3001;
+          proxy_pass http://backend-service:3001/;
         }
 
       }
